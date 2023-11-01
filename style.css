@@ -1,0 +1,108 @@
+.site-warp {
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.site-warp-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.site-warp-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 80px;
+}
+
+.footer-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #ebdfe4;
+}
+
+.logo a {
+    color:#252c30;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.mainmenu {
+    font-size: 20px;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: #252c30;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.mainmenu  li a {
+    display: block;
+}
+.hero-text {
+    width: 50%;
+    font-size: 18px;
+    padding-left: 80px;
+    color: #817c82;
+    line-height: 1.8;
+}
+
+.hero-text h2 {
+    color: #252c30;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+.hero-text a {
+    font-weight: 900;
+    text-decoration: none;
+    color: #7b6078;
+}
+
+.social-links {
+    padding-right: 65px;
+}
+
+.social-links a {
+    color: #b5acb3;
+    font-size: 30px;
+    padding-right: 13px;
+    transition: .3s;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+p.copyright-text {
+    padding-left: 65px;
+    padding-top: 10px;
+    color: #555;
+}
